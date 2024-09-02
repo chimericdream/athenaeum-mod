@@ -1,6 +1,7 @@
 package com.chimericdream.athenaeum.registries;
 
 import com.chimericdream.athenaeum.AthenaeumMod;
+import com.chimericdream.athenaeum.config.AthenaeumConfig;
 import com.chimericdream.athenaeum.data.AthenaeumBook;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -150,13 +151,20 @@ public class BookRegistry {
     }
 
     private int getRandomEdition(LootContext context) {
-        float roll = context.getRandom().nextFloat();
+        AthenaeumConfig config = AthenaeumMod.CONFIG.get();
 
-        if (roll < 0.05) {
+        double roll = context.getRandom().nextDouble();
+        if (roll <= config.firstEditionChance) {
             return 0;
-        } else if (roll < 0.2) {
+        }
+
+        roll -= config.firstEditionChance;
+        if (roll <= config.secondEditionChance) {
             return 1;
-        } else if (roll < 0.5) {
+        }
+
+        roll -= config.secondEditionChance;
+        if (roll <= config.thirdEditionChance) {
             return 2;
         }
 

@@ -1,5 +1,6 @@
 package com.chimericdream.athenaeum;
 
+import com.chimericdream.athenaeum.config.AthenaeumConfig;
 import com.chimericdream.athenaeum.loot.AthenaeumLootFunctionTypes;
 import com.chimericdream.athenaeum.loot.AthenaeumLootTables;
 import com.chimericdream.athenaeum.registries.AthenaeumRegistries;
@@ -11,6 +12,8 @@ import org.slf4j.LoggerFactory;
 
 public final class AthenaeumMod {
     public static final Logger LOGGER = LoggerFactory.getLogger("athenaeum");
+
+    public static Supplier<AthenaeumConfig> CONFIG = AthenaeumConfig::new;
 
     public static final Supplier<RegistrarManager> MANAGER = Suppliers.memoize(() -> RegistrarManager.get(AthenaeumModInfo.MOD_ID));
 
