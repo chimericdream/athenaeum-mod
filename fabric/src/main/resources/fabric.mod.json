@@ -3,7 +3,7 @@
     "id": "athenaeum",
     "version": "${version}",
     "name": "Athenaeum",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "description": "This mod adds a variety of custom written books and related content to the game.",
     "authors": [
         "chimericdream"
     ],
