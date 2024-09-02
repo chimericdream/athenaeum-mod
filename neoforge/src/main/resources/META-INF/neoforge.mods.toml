@@ -11,7 +11,7 @@ authors = "chimericdream"
 description = '''
 This mod adds a variety of custom written books and related content to the game.
 '''
-#logoFile = ""
+logoFile = "/assets/athenaeum/icon.png"
 
 [[dependencies.athenaeum]]
 modId = "neoforge"
