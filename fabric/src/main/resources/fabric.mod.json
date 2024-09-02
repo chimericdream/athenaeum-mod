@@ -5,13 +5,13 @@
     "name": "Athenaeum",
     "description": "This is an example description! Tell everyone what your mod is about!",
     "authors": [
-        "Me!"
+        "chimericdream"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/the-athenaeum",
+        "sources": "https://github.com/chimericdream/athenaeum-mod/"
     },
-    "license": "CC0-1.0",
+    "license": "MIT",
     "icon": "assets/athenaeum/icon.png",
     "environment": "*",
     "entrypoints": {

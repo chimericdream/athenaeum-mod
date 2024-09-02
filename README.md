@@ -6,9 +6,15 @@
 
 ## Introduction
 
+All about books, literary works, and more!
+
 > _ath·e·ne·um_<br />
 > \[ ath-uh-**ney**-uhm \]<br />
 > (noun) an institution for the promotion of literary or scientific learning; a library or reading room
+
+This mod adds a variety of custom written books and related content to the game. The goal is to provide
+incentive beyond normal loot for players to explore the world and its structures. The mod is powered by
+datapacks, which allows for easy customization and expansion.
 
 ### Minecraft Versions
 
@@ -26,6 +32,10 @@
 * Add books to loot tables for other structures, including modded structures
 * Additional metadata for books, such as genre
 * Custom blocks/items
+* New villager type
+* Book catalog
+* Advancements
+* Additional configuration options to control which books can be generated
 
 ## Issues & Suggestions
 
