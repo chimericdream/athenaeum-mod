@@ -1,8 +1,8 @@
 # Athenaeum (Fabric/NeoForge)
 
-![version: 1.0.0](https://img.shields.io/badge/version-1.0.0-blueviolet?style=flat-square) ![client: optional](https://img.shields.io/badge/client-optional-4caf50?style=flat-square) ![server: required](https://img.shields.io/badge/server-required-4caf50?style=flat-square)
+![Fabric: 1.0.0](https://img.shields.io/badge/Fabric-1.0.0-1976d2?style=flat-square) ![NeoForge: 1.0.0](https://img.shields.io/badge/NeoForge-1.0.0-1976d2?style=flat-square)
 
-![modloader: Fabric](https://img.shields.io/badge/modloader-Fabric-1976d2?style=flat-square) ![modloader: NeoForge](https://img.shields.io/badge/modloader-NeoForge-1976d2?style=flat-square)
+![client: optional](https://img.shields.io/badge/client-optional-4caf50?style=flat-square) ![server: required](https://img.shields.io/badge/server-required-4caf50?style=flat-square)
 
 ## Introduction
 
