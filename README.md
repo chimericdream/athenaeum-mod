@@ -10,7 +10,7 @@
 > \[ ath-uh-**ney**-uhm \]<br />
 > (noun) an institution for the promotion of literary or scientific learning; a library or reading room
 
-### Versions
+### Minecraft Versions
 
 * 1.21.x: supported
 * < 1.21: not planned
