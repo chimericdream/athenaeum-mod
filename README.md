@@ -1,3 +1,9 @@
+# Archived
+
+All of my mods have been consolidated into a [single monorepo](https://github.com/chimericdream/minecraft-mods). Please go there for the latest code and/or issues.
+
+---
+
 # Athenaeum (Fabric/NeoForge)
 
 ![Fabric: 1.0.0](https://img.shields.io/badge/Fabric-1.0.0-1976d2?style=flat-square) ![NeoForge: 1.0.0](https://img.shields.io/badge/NeoForge-1.0.0-1976d2?style=flat-square)
